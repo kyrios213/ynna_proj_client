@@ -22,7 +22,7 @@
     <v-main class="grey lighten-3">
       <v-container>
         <v-row>
-          <v-col cols="3">
+          <v-col md="3">
             <v-sheet rounded="lg">
               <v-list color="transparent" v-if="user">
                 <v-list-item>
