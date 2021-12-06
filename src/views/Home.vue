@@ -21,7 +21,7 @@
           <form @submit.prevent="joinRoom">
             <validation-provider
               v-slot="{ errors }"
-              name="Username"
+              name="Room"
               rules="required"
             >
               <v-text-field
